@@ -1,0 +1,36 @@
+@import '../../index.scss';
+
+.footer{
+  padding: 10rem 0 30rem 0;
+  h4{
+    font-size: 2.4rem;
+    margin-bottom: 3rem;
+    color: $text_grey;
+  }
+  .box{
+    display: flex;
+    justify-content: space-between;
+    color: $text_grey;
+    margin-bottom: 5rem;
+    li{
+      margin-bottom: 3rem;
+      transition: all ease 0.5s;
+      &:hover{
+        color: $text_primary;
+      }
+    }
+  }
+  .coopyright{
+    color: $text_primary;
+    select{
+      font-weight: 500;
+      padding: 1rem;
+      border-radius: 1rem;
+      border: 1px solid $text_primary;
+      margin-bottom: 2.5rem;
+    }
+    p{
+      font-size: 1.8rem;
+    }
+  }
+}

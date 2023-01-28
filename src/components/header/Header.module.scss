@@ -1,0 +1,42 @@
+@import '../../index.scss';
+
+header{
+  background-image: url('../../img/header_bg.jpeg');
+  background-repeat: no-repeat;
+  background-size: auto;   
+  background-position: center;
+}
+.header{
+  padding: 29.2rem 0 9.5rem 0; 
+  text-align: center;
+  h1{
+    font-weight: 700;
+    font-size: 6.4rem;
+    margin-bottom: 2rem;
+  }
+  .text{
+    font-weight: 500;
+    font-size: 3.6rem;
+    margin-bottom: 11rem;
+    line-height: 4.4rem;
+  }
+  .btn{
+    display: inline-block;
+    font-weight: 700;
+    font-size: 2.4rem;
+    padding: 2.4rem 4rem;
+    border-radius: 1rem;
+    background-color: $btn_bg;
+    margin-bottom: 2rem;
+    transition: all ease 0.5s;
+    &:hover{
+      background-color: $btn_bgHover;
+    }
+  }
+  .link{
+    a{
+      color: $text_secondary;
+      font-size: 1.8rem;
+    }
+  }
+}
