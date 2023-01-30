@@ -1,0 +1,20 @@
+.item{
+  cursor: pointer;
+  .img{
+    margin-bottom: 2rem;
+  }
+  .name{
+    font-size: 2.4rem;
+    text-align: center;
+  }
+}
+
+.next{
+  // display: none;
+  &::before{
+    content: '';
+  }
+  &:first-child{
+    transform: rotate(180deg);
+  }
+} 
